@@ -1,0 +1,17 @@
+import { ref } from "vue";
+import { defineStore } from 'pinia';
+
+const useInfoStore = defineStore('infoStore', () => {
+
+const isDark = ref(false) 
+    
+        
+
+    
+
+    return {
+       isDark,
+    };
+
+})
+export default useInfoStore;
